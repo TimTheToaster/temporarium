@@ -42,3 +42,10 @@ recipes.addShaped(<ic2:misc_resource:3>, [[null, null, null],[null, null, null],
 <ore:ingotBrass>.addAll(<ore:ingotBronze>);
 <ore:dustBrass>.addAll(<ore:dustBronze>);
 <ore:plateBrass>.addAll(<ore:plateBronze>);
+
+recipes.remove(<ic2:iridium_reflector>);
+recipes.addShaped(<ic2:iridium_reflector>, [
+  [<ore:reflectorThick>,<ore:reflectorThick>,<ore:reflectorThick>],
+  [<ore:reflectorThick>,<ore:plateIridiumAlloy>,<ore:reflectorThick>],
+  [<ore:reflectorThick>,<ore:reflectorThick>,<ore:reflectorThick>],
+]);
