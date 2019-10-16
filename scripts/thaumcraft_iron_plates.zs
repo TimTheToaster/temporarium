@@ -1,0 +1,1 @@
+recipes.addShaped(<thaumcraft:plate:1>*3, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],[null, null, null], [null, null, null]]);
