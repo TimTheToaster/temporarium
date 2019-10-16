@@ -6,4 +6,6 @@
 !mods/*
 !config
 !config/*
+!resourcepacks
+resourcepacks/*
 !resourcepacks/Road_Blocks.zip
