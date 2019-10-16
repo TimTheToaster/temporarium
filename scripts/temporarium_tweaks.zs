@@ -49,3 +49,9 @@ recipes.addShaped(<ic2:iridium_reflector>, [
   [<ore:reflectorThick>,<ore:plateIridiumAlloy>,<ore:reflectorThick>],
   [<ore:reflectorThick>,<ore:reflectorThick>,<ore:reflectorThick>],
 ]);
+
+recipes.addShaped(<powersuits:powerarmorcomponent:7>, [
+  [null, null, null],
+  [<ore:componentWiring>, <ore:lapotronCrystal>, <ore:componentWiring>],
+  [<ore:componentWiring>, null, <ore:componentWiring>]
+])
