@@ -8,3 +8,5 @@
 !config/*
 !resourcepacks
 !resourcepacks/*
+
+config/splash.properties

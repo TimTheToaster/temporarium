@@ -39,5 +39,4 @@ recipes.addShapeless(<ic2:resource:12>, [<techreborn:machine_frame:0>]);
 recipes.remove(<ics:misc_resource:3>);
 recipes.addShaped(<ics:misc_resource:3>, [[null, null, null],[null, null, null],[null, <techreborn:uumatter>, null]]);
 
-val ingotZinc = <ore:ingotZinc>;
-ingotZinc.addAll(<ore:ingotTin>);
+<ore:ingotZinc>.addAll(<ore:ingotTin>);
