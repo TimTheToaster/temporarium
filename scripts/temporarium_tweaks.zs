@@ -30,7 +30,6 @@ mods.chisel.Carving.addVariation("road", <minecraft:cyan_glazed_terracotta>);
 mods.chisel.Carving.addVariation("road", <minecraft:purple_glazed_terracotta>);
 mods.chisel.Carving.addVariation("road", <minecraft:blue_glazed_terracotta>);
 
-
 # allow tech reborn machine frames to take precedence
 
 recipes.remove(<ic2:resource:12>);
