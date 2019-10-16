@@ -8,5 +8,6 @@
 !config/*
 !resourcepacks
 !resourcepacks/*
+.DS_Store
 
 config/splash.properties
