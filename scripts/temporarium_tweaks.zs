@@ -36,7 +36,7 @@ recipes.remove(<ic2:ingot:7>);
 recipes.addShapeless(<ic2:resource:12>, [<techreborn:machine_frame:0>]);
 
 # UU matter conversion to shaped recipe as to not cause conflict
-recipes.remove(<ics:misc_resource:3>);
-recipes.addShaped(<ics:misc_resource:3>, [[null, null, null],[null, null, null],[null, <techreborn:uumatter>, null]]);
+recipes.remove(<ic2:misc_resource:3>);
+recipes.addShaped(<ic2:misc_resource:3>, [[null, null, null],[null, null, null],[null, <techreborn:uumatter>, null]]);
 
 <ore:ingotZinc>.addAll(<ore:ingotTin>);
