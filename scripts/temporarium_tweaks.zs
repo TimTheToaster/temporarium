@@ -39,5 +39,6 @@ recipes.addShapeless(<ic2:resource:12>, [<techreborn:machine_frame:0>]);
 recipes.remove(<ic2:misc_resource:3>);
 recipes.addShaped(<ic2:misc_resource:3>, [[null, null, null],[null, null, null],[null, <techreborn:uumatter>, null]]);
 
-<ore:ingotZinc>.addAll(<ore:ingotTin>);
-<ore:dustZinc>.addAll(<ore:dustTin>);
+<ore:ingotBrass>.addAll(<ore:ingotBronze>);
+<ore:dustBrass>.addAll(<ore:dustBronze>);
+<ore:plateBrass>.addAll(<ore:plateBronze>);
