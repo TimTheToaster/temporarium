@@ -54,4 +54,4 @@ recipes.addShaped(<powersuits:powerarmorcomponent:7>, [
   [null, null, null],
   [<ore:componentWiring>, <ore:lapotronCrystal>, <ore:componentWiring>],
   [<ore:componentWiring>, null, <ore:componentWiring>]
-])
+]);
