@@ -1,0 +1,9 @@
+*
+!.gitignore
+!scripts
+!scripts/*
+!mods
+!mods/*
+!config
+!config/*
+!resourcepacks/Road_Blocks.zip
