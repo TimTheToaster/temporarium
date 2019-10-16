@@ -108,12 +108,12 @@ recipes.addShaped(<powersuits:powerarmorcomponent:0> * 8, [
 	[null,null,null],
 	[<ic2:cable>,<ore:dustRedstone>,<ic2:cable>]
 ]);
-recipes.addShaped(<ore:gemDiamond> * 5, [
+recipes.addShaped(<minecraft:diamond> * 5, [
 	[null,null,null],
 	[null,null,null],
 	[<ore:componentPlatingDiamond>,null,null]
 ]);
-recipes.addShaped(<ore:ingotIron> * 5, [
+recipes.addShaped(<minecraft:iron_ingot> * 5, [
 	[null,null,null],
 	[null,null,null],
 	[<ore:componentPlatingIron>,null,null]
@@ -418,12 +418,12 @@ recipes.addShaped(<powersuits:powerarmorcomponent:0> * 8, [
 	[null,null,null],
 	[<ore:ingotPulsatingIron>,<ore:dustRedstone>,<ore:ingotPulsatingIron>]
 ]);
-recipes.addShaped(<ore:gemDiamond> * 5, [
+recipes.addShaped(<minecraft:diamond> * 5, [
 	[null,null,null],
 	[null,null,null],
 	[<ore:componentPlatingDiamond>,null,null]
 ]);
-recipes.addShaped(<ore:ingotIron> * 5, [
+recipes.addShaped(<minecraft:iron_ingot> * 5, [
 	[null,null,null],
 	[null,null,null],
 	[<ore:componentPlatingIron>,null,null]
