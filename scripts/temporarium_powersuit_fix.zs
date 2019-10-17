@@ -37,9 +37,9 @@ recipes.addShaped(<powersuits:powerarmorcomponent:14>, [
 	[<ic2:crafting:15>,<ic2:crafting:15>,<ic2:crafting:15>]
 ]);
 recipes.addShaped(<powersuits:powerarmorcomponent:20>, [
-	[<ic2:cable>,<ore:componentSolenoid>,<ic2:cable>],
+	[<ic2:cable>.withTag({"type":"0b","insulation":"0b"}),<ore:componentSolenoid>,<ic2:cable>.withTag({"type":"0b","insulation":"0b"})],
 	[<ore:circuitAdvanced>,<ic2:advanced_scanner:26>,<ore:circuitAdvanced>],
-	[<ic2:cable>,<ore:componentSolenoid>,<ic2:cable>]
+	[<ic2:cable>.withTag({"type":"0b","insulation":"0b"}),<ore:componentSolenoid>,<ic2:cable>.withTag({"type":"0b","insulation":"0b"})]
 ]);
 recipes.addShaped(<powersuits:powerarmorcomponent:15>, [
 	[<ore:componentWiring>,<ore:dyeGreen>,<ore:componentWiring>],
@@ -134,21 +134,21 @@ recipes.addShaped(<powersuits:powerarmorcomponent:1>, [
 recipes.addShaped(<powersuits:powerarmorcomponent:0> * 8, [
 	[null,null,null],
 	[null,null,null],
-	[<ic2:cable>,<ore:dustRedstone>,<ic2:cable>]
+	[<ic2:cable>.withTag({"type":"0b","insulation":"0b"}),<ore:dustRedstone>,<ic2:cable>.withTag({"type":"0b","insulation":"0b"})]
 ]);
-recipes.addShaped(<ore:gemDiamond> * 5, [
+recipes.addShaped(<minecraft:diamond> * 5, [
 	[null,null,null],
 	[null,null,null],
 	[<ore:componentPlatingDiamond>,null,null]
 ]);
-recipes.addShaped(<ore:ingotIron> * 5, [
+recipes.addShaped(<minecraft:iron_ingot> * 5, [
 	[null,null,null],
 	[null,null,null],
 	[<ore:componentPlatingIron>,null,null]
 ]);
-recipes.addShaped(<forge:bucketfilled>, [
+recipes.addShaped(<forge:bucketfilled>.withTag({"FluidName":"liquid_nitrogen","Amount":1000}), [
 	[<ore:dustLapis>,<ore:dustLapis>,<ore:dustLapis>],
-	[<ic2:fluid_cell>,<ic2:fluid_cell>,<ic2:fluid_cell>],
+	[<ic2:fluid_cell>.withTag({"Fluid":{"FluidName":"ic2coolant","Amount":1000}}),<ic2:fluid_cell>.withTag({"Fluid":{"FluidName":"ic2coolant","Amount":1000}}),<ic2:fluid_cell>.withTag({"Fluid":{"FluidName":"ic2coolant","Amount":1000}})],
 	[null,<minecraft:bucket>,null]
 ]);
 recipes.addShaped(<powersuits:power_fist>, [
@@ -187,9 +187,9 @@ recipes.addShaped(<powersuits:powerarmorcomponent:17>, [
 	[<ore:componentCarbonMyofiber>,<ore:componentMyofiberGel>,<ore:componentCarbonMyofiber>]
 ]);
 recipes.addShaped(<powersuits:powerarmorcomponent:14>, [
-	[<ore:dustCoal>,<forge:bucketfilled>,<ore:dustCoal>],
-	[<ore:dustCoal>,<forge:bucketfilled>,<ore:dustCoal>],
-	[<ore:dustCoal>,<forge:bucketfilled>,<ore:dustCoal>]
+	[<ore:dustCoal>,<forge:bucketfilled>.withTag({"FluidName":"coal","Amount":1000}),<ore:dustCoal>],
+	[<ore:dustCoal>,<forge:bucketfilled>.withTag({"FluidName":"coal","Amount":1000}),<ore:dustCoal>],
+	[<ore:dustCoal>,<forge:bucketfilled>.withTag({"FluidName":"coal","Amount":1000}),<ore:dustCoal>]
 ]);
 recipes.addShaped(<powersuits:powerarmorcomponent:20>, [
 	[<thermalfoundation:material:514>,<ore:componentSolenoid>,<thermalfoundation:material:514>],
@@ -301,9 +301,9 @@ recipes.addShaped(<minecraft:iron_ingot> * 5, [
 	[null,null,null],
 	[<ore:componentPlatingIron>,null,null]
 ]);
-recipes.addShaped(<forge:bucketfilled>, [
+recipes.addShaped(<forge:bucketfilled>.withTag({"FluidName":"liquid_nitrogen","Amount":1000}), [
 	[<ore:dustCryotheum>,<ore:dustCryotheum>,<ore:dustCryotheum>],
-	[<forge:bucketfilled>,<forge:bucketfilled>,<forge:bucketfilled>],
+	[<forge:bucketfilled>.withTag({"FluidName":"cryotheum","Amount":1000}),<forge:bucketfilled>.withTag({"FluidName":"cryotheum","Amount":1000}),<forge:bucketfilled>.withTag({"FluidName":"cryotheum","Amount":1000})],
 	[null,<minecraft:bucket>,null]
 ]);
 recipes.addShaped(<powersuits:power_fist>, [
@@ -446,17 +446,17 @@ recipes.addShaped(<powersuits:powerarmorcomponent:0> * 8, [
 	[null,null,null],
 	[<ore:ingotPulsatingIron>,<ore:dustRedstone>,<ore:ingotPulsatingIron>]
 ]);
-recipes.addShaped(<ore:gemDiamond> * 5, [
+recipes.addShaped(<minecraft:diamond> * 5, [
 	[null,null,null],
 	[null,null,null],
 	[<ore:componentPlatingDiamond>,null,null]
 ]);
-recipes.addShaped(<ore:ingotIron> * 5, [
+recipes.addShaped(<minecraft:iron_ingot> * 5, [
 	[null,null,null],
 	[null,null,null],
 	[<ore:componentPlatingIron>,null,null]
 ]);
-recipes.addShaped(<forge:bucketfilled>, [
+recipes.addShaped(<forge:bucketfilled>.withTag({"FluidName":"liquid_nitrogen","Amount":1000}), [
 	[<ore:itemPulsatingCrystal>,<ore:itemPulsatingCrystal>,<ore:itemPulsatingCrystal>],
 	[<minecraft:water_bucket>,<minecraft:water_bucket>,<minecraft:water_bucket>],
 	[null,<minecraft:bucket>,null]
@@ -533,8 +533,8 @@ recipes.addShaped(<powersuits:powerarmorcomponent:3>, [
 ]);
 recipes.addShaped(<powersuits:powerarmorcomponent:7>, [
 	[<ore:ingotChrome>,<ore:componentWiring>,<ore:ingotChrome>],
-	[<ore:ingotChrome>,<techreborn:lapotronicOrb>,<ore:ingotChrome>],
-	[<ore:ingotChrome>,<techreborn:lapotronicOrb>,<ore:ingotChrome>]
+	[<ore:ingotChrome>,<techreborn:lapotronicorb>,<ore:ingotChrome>],
+	[<ore:ingotChrome>,<techreborn:lapotronicorb>,<ore:ingotChrome>]
 ]);
 recipes.addShaped(<powersuits:powerarmorcomponent:4>, [
 	[<ore:plateIridium>,<ore:craftingSuperconductor>,<ore:plateIridium>],
@@ -601,19 +601,19 @@ recipes.addShaped(<powersuits:powerarmorcomponent:0> * 8, [
 	[<ore:ingotSilver>,<ore:ingotSilver>,<ore:ingotSilver>],
 	[<techreborn:cable>,<techreborn:cable>,<techreborn:cable>]
 ]);
-recipes.addShaped(<ore:plateIridium> * 5, [
+recipes.addShaped(<thermalfoundation:material:327> * 5, [
 	[null,null,null],
 	[null,null,null],
 	[<ore:componentPlatingDiamond>,null,null]
 ]);
-recipes.addShaped(<ore:ingotSteel> * 5, [
+recipes.addShaped(<thermalfoundation:material:160> * 5, [
 	[null,null,null],
 	[null,null,null],
 	[<ore:componentPlatingIron>,null,null]
 ]);
-recipes.addShaped(<forge:bucketfilled>, [
+recipes.addShaped(<forge:bucketfilled>.withTag({"FluidName":"liquid_nitrogen","Amount":1000}), [
 	[<ore:dustLazurite>,<ore:dustLazurite>,<ore:dustLazurite>],
-	[<techreborn:dynamicCell>,<techreborn:dynamicCell>,<techreborn:dynamicCell>],
+	[<techreborn:dynamiccell>,<techreborn:dynamiccell>,<techreborn:dynamiccell>],
 	[null,<minecraft:bucket>,null]
 ]);
 recipes.addShaped(<powersuits:power_fist>, [
