@@ -1,10 +1,10 @@
 # tech reborn cable fix
 <ore:itemCopperCable>.add(<techreborn:cable>);
-recipes.remove(<techreborn:cable>);
+recipes.remove(<techreborn:cable:0>);
 recipes.remove(<ic2:cable:0>);
-recipes.addShaped(<ic2:cable:0> * 6,[
+recipes.addShaped(<ic2:cable:0> * 6, [
   [null, null, null],
-  [<ore:ingotCopper>,<ore:ingotCopper>,<ore:ingotCopper>],
+  [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>],
   [null, null, null]
 ]);
 
