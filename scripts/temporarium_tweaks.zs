@@ -4,6 +4,7 @@ mods.techreborn.compressor.addRecipe(<techreborn:plates:35>, <ore:ingotRefinedIr
 mods.techreborn.compressor.addRecipe(<ic2:crafting:4>, <ore:ingotIridiumAlloy>, 300, 20);
 mods.techreborn.compressor.addRecipe(<thermalfoundation:material:327>, <ore:ingotIridium>, 300, 20);
 mods.techreborn.compressor.addRecipe(<ic2:ingot:0>, <ore:plateAdvancedAlloy>, 300, 20);
+mods.techreborn.compressor.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>, 200, 8);
 
 # booster card fix
 recipes.remove(<ae2wtlib:infinity_booster_card>);
