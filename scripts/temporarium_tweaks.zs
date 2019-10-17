@@ -2,7 +2,7 @@
 <ore:itemCopperCable>.add(<techreborn:cable>);
 recipes.remove(<techreborn:cable:0>);
 recipes.remove(<ic2:cable:0>);
-recipes.addShaped(<ic2:cable:0> * 6, [
+recipes.addShaped(<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}) * 6, [
   [null, null, null],
   [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>],
   [null, null, null]
