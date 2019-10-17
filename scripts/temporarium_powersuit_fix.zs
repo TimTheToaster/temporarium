@@ -37,9 +37,9 @@ recipes.addShaped(<powersuits:powerarmorcomponent:14>, [
 	[<ic2:crafting:15>,<ic2:crafting:15>,<ic2:crafting:15>]
 ]);
 recipes.addShaped(<powersuits:powerarmorcomponent:20>, [
-	[<ic2:cable>.withTag({"type":"0b","insulation":"0b"}),<ore:componentSolenoid>,<ic2:cable>.withTag({"type":"0b","insulation":"0b"})],
+	[<ic2:cable>.withTag({"type":0 as byte,"insulation":0 as byte}),<ore:componentSolenoid>,<ic2:cable>.withTag({"type":0 as byte,"insulation":0 as byte})],
 	[<ore:circuitAdvanced>,<ic2:advanced_scanner:26>,<ore:circuitAdvanced>],
-	[<ic2:cable>.withTag({"type":"0b","insulation":"0b"}),<ore:componentSolenoid>,<ic2:cable>.withTag({"type":"0b","insulation":"0b"})]
+	[<ic2:cable>.withTag({"type":0 as byte,"insulation":0 as byte}),<ore:componentSolenoid>,<ic2:cable>.withTag({"type":0 as byte,"insulation":0 as byte})]
 ]);
 recipes.addShaped(<powersuits:powerarmorcomponent:15>, [
 	[<ore:componentWiring>,<ore:dyeGreen>,<ore:componentWiring>],
@@ -134,7 +134,7 @@ recipes.addShaped(<powersuits:powerarmorcomponent:1>, [
 recipes.addShaped(<powersuits:powerarmorcomponent:0> * 8, [
 	[null,null,null],
 	[null,null,null],
-	[<ic2:cable>.withTag({"type":"0b","insulation":"0b"}),<ore:dustRedstone>,<ic2:cable>.withTag({"type":"0b","insulation":"0b"})]
+	[<ic2:cable>.withTag({"type":0 as byte,"insulation":0 as byte}),<ore:dustRedstone>,<ic2:cable>.withTag({"type":0 as byte,"insulation":0 as byte})]
 ]);
 recipes.addShaped(<minecraft:diamond> * 5, [
 	[null,null,null],
