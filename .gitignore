@@ -11,3 +11,5 @@
 .DS_Store
 
 config/splash.properties
+config/machinemuse/powersuits-keybinds.cfg
+config/IC2.ini
