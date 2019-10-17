@@ -5,7 +5,7 @@
 !mods
 !mods/*
 !config
-!config/*
+!config/**/*
 !resourcepacks
 !resourcepacks/*
 .DS_Store
