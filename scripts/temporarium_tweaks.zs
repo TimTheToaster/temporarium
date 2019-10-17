@@ -7,9 +7,15 @@ recipes.addShaped(<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}) 
   [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>],
   [null, null, null]
 ]);
+
 <ore:itemCopperCable>.add(<techreborn:cable:5>);
 <ore:itemInsulatedCopperCable>.add(<techreborn:cable:5>);
 recipes.remove(<techreborn:cable:5>);
+recipes.addShaped(<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}) * 6, [
+  [<ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>],
+  [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>],
+  [<ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>]
+]);
 
 # tech reborn compressor recipes
 mods.techreborn.compressor.addRecipe(<techreborn:plates:35>, <ore:ingotRefinedIron>, 200, 8);
