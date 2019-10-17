@@ -1,3 +1,5 @@
+# tech reborn cable fix
+<ore:itemCopperCable>.add(<techreborn:cable>);
 
 # tech reborn compressor recipes
 mods.techreborn.compressor.addRecipe(<techreborn:plates:35>, <ore:ingotRefinedIron>, 200, 8);
