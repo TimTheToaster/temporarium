@@ -1,3 +1,31 @@
+recipes.remove(<powersuits:powerarmorcomponent:17>);
+recipes.remove(<powersuits:powerarmorcomponent:14>);
+recipes.remove(<powersuits:powerarmorcomponent:20>);
+recipes.remove(<powersuits:powerarmorcomponent:15>);
+recipes.remove(<powersuits:powerarmorcomponent:11>);
+recipes.remove(<powersuits:powerarmorcomponent:8>);
+recipes.remove(<powersuits:powerarmorcomponent:12>);
+recipes.remove(<powersuits:powerarmorcomponent:3>);
+recipes.remove(<powersuits:powerarmorcomponent:7>);
+recipes.remove(<powersuits:powerarmorcomponent:4>);
+recipes.remove(<powersuits:powerarmorcomponent:10>);
+recipes.remove(<powersuits:powerarmorcomponent:13>);
+recipes.remove(<powersuits:powerarmorcomponent:5>);
+recipes.remove(<powersuits:powerarmorcomponent:19>);
+recipes.remove(<powersuits:powerarmorcomponent:6>);
+recipes.remove(<powersuits:powerarmorcomponent:16>);
+recipes.remove(<powersuits:powerarmorcomponent:9>);
+recipes.remove(<powersuits:powerarmorcomponent:21>);
+recipes.remove(<powersuits:powerarmorcomponent:2>);
+recipes.remove(<powersuits:powerarmorcomponent:18>);
+recipes.remove(<powersuits:powerarmorcomponent:1>);
+recipes.remove(<powersuits:powerarmorcomponent:0>);
+recipes.remove(<powersuits:power_fist>);
+recipes.remove(<powersuits:powerarmor_feet>);
+recipes.remove(<powersuits:powerarmor_head>);
+recipes.remove(<powersuits:powerarmor_legs>);
+recipes.remove(<powersuits:powerarmor_torso>);
+recipes.remove(<powersuits:tinkertable>);
 recipes.addShaped(<powersuits:powerarmorcomponent:17>, [
 	[<ore:componentCarbonMyofiber>,<ore:itemRubber>,<ore:componentCarbonMyofiber>],
 	[<ore:componentCarbonMyofiber>,<ore:componentMyofiberGel>,<ore:componentCarbonMyofiber>],
@@ -108,12 +136,12 @@ recipes.addShaped(<powersuits:powerarmorcomponent:0> * 8, [
 	[null,null,null],
 	[<ic2:cable>,<ore:dustRedstone>,<ic2:cable>]
 ]);
-recipes.addShaped(<minecraft:diamond> * 5, [
+recipes.addShaped(<ore:gemDiamond> * 5, [
 	[null,null,null],
 	[null,null,null],
 	[<ore:componentPlatingDiamond>,null,null]
 ]);
-recipes.addShaped(<minecraft:iron_ingot> * 5, [
+recipes.addShaped(<ore:ingotIron> * 5, [
 	[null,null,null],
 	[null,null,null],
 	[<ore:componentPlatingIron>,null,null]
@@ -418,12 +446,12 @@ recipes.addShaped(<powersuits:powerarmorcomponent:0> * 8, [
 	[null,null,null],
 	[<ore:ingotPulsatingIron>,<ore:dustRedstone>,<ore:ingotPulsatingIron>]
 ]);
-recipes.addShaped(<minecraft:diamond> * 5, [
+recipes.addShaped(<ore:gemDiamond> * 5, [
 	[null,null,null],
 	[null,null,null],
 	[<ore:componentPlatingDiamond>,null,null]
 ]);
-recipes.addShaped(<minecraft:iron_ingot> * 5, [
+recipes.addShaped(<ore:ingotIron> * 5, [
 	[null,null,null],
 	[null,null,null],
 	[<ore:componentPlatingIron>,null,null]
@@ -462,4 +490,159 @@ recipes.addShaped(<powersuits:tinkertable>, [
 	[null,<ore:gemEmerald>,null],
 	[<ore:ingotElectricalSteel>,<enderio:item_basic_capacitor>,<ore:ingotElectricalSteel>],
 	[null,<ore:itemSimpleMachineChassi>,null]
+]);
+recipes.addShaped(<powersuits:powerarmorcomponent:17>, [
+	[<ore:componentCarbonMyofiber>,<ore:itemRubber>,<ore:componentCarbonMyofiber>],
+	[<ore:componentCarbonMyofiber>,<ore:componentMyofiberGel>,<ore:componentCarbonMyofiber>],
+	[<ore:componentCarbonMyofiber>,<ore:componentMyofiberGel>,<ore:componentCarbonMyofiber>]
+]);
+recipes.addShaped(<powersuits:powerarmorcomponent:14>, [
+	[<ore:plateCarbon>,<ore:plateCarbon>,<ore:plateCarbon>],
+	[<ore:plateCarbon>,<ore:plateCarbon>,<ore:plateCarbon>],
+	[<ore:plateCarbon>,<ore:plateCarbon>,<ore:plateCarbon>]
+]);
+recipes.addShaped(<powersuits:powerarmorcomponent:20>, [
+	[<ore:craftingSuperconductor>,<ore:componentFieldEmitter>,<ore:craftingSuperconductor>],
+	[<ore:circuitElite>,<ore:componentControlCircuit>,<ore:circuitElite>],
+	[<ore:craftingSuperconductor>,<ore:componentFieldEmitter>,<ore:craftingSuperconductor>]
+]);
+recipes.addShaped(<powersuits:powerarmorcomponent:15>, [
+	[<ore:componentWiring>,<ore:circuitAdvanced>,<ore:ingotElectrum>],
+	[<ore:circuitBasic>,<ore:circuitElite>,<ore:circuitAdvanced>],
+	[<ore:ingotElectrum>,<ore:circuitBasic>,<ore:componentWiring>]
+]);
+recipes.addShaped(<powersuits:powerarmorcomponent:11>, [
+	[<ore:plateIridium>,<ore:plateIridium>,null],
+	[<ore:circuitAdvanced>,<ore:plateIridium>,null],
+	[<ore:plateIridium>,<ore:plateIridium>,null]
+]);
+recipes.addShaped(<powersuits:powerarmorcomponent:8>, [
+	[<ore:componentWiring>,<ore:componentHVCapacitor>,<ore:componentWiring>],
+	[<ore:componentWiring>,<ore:componentComputerChip>,<ore:componentWiring>],
+	[<ore:componentWiring>,<ore:componentHVCapacitor>,<ore:componentWiring>]
+]);
+recipes.addShaped(<powersuits:powerarmorcomponent:12>, [
+	[<ore:plateIridium>,<ore:componentSolenoid>,<ore:plateIridium>],
+	[<ore:craftingSuperconductor>,<ore:circuitElite>,<ore:craftingSuperconductor>],
+	[<ore:plateIridium>,<ore:componentSolenoid>,<ore:plateIridium>]
+]);
+recipes.addShaped(<powersuits:powerarmorcomponent:3>, [
+	[null,<ore:plateCarbon>,<ore:plateCarbon>],
+	[<ore:plateCarbon>,<ore:plateCarbon>,<ore:componentSolenoid>],
+	[<ore:plateCarbon>,null,<ore:ingotSteel>]
+]);
+recipes.addShaped(<powersuits:powerarmorcomponent:7>, [
+	[<ore:ingotChrome>,<ore:componentWiring>,<ore:ingotChrome>],
+	[<ore:ingotChrome>,<techreborn:lapotronicOrb>,<ore:ingotChrome>],
+	[<ore:ingotChrome>,<techreborn:lapotronicOrb>,<ore:ingotChrome>]
+]);
+recipes.addShaped(<powersuits:powerarmorcomponent:4>, [
+	[<ore:plateIridium>,<ore:craftingSuperconductor>,<ore:plateIridium>],
+	[<ore:componentFieldEmitter>,<ore:componentHVCapacitor>,<ore:componentFieldEmitter>],
+	[<techreborn:part:27>,null,<techreborn:part:27>]
+]);
+recipes.addShaped(<powersuits:powerarmorcomponent:10>, [
+	[<ore:ingotSteel>,<ore:ingotSteel>,null],
+	[<ore:circuitBasic>,<ore:ingotSteel>,null],
+	[<ore:ingotSteel>,<ore:ingotSteel>,null]
+]);
+recipes.addShaped(<powersuits:powerarmorcomponent:13>, [
+	[<ore:circuitAdvanced>,<ore:glassReinforced>,<ore:circuitAdvanced>],
+	[<ore:glassReinforced>,<ore:circuitAdvanced>,<ore:glassReinforced>],
+	[<ore:plateCarbon>,<ore:glassReinforced>,<ore:plateCarbon>]
+]);
+recipes.addShaped(<powersuits:powerarmorcomponent:5>, [
+	[<ore:ingotRefinedIron>,<ore:componentWiring>,<ore:ingotRefinedIron>],
+	[<ore:ingotRefinedIron>,<ore:reBattery>,<ore:ingotRefinedIron>],
+	[<ore:ingotRefinedIron>,<ore:reBattery>,<ore:ingotRefinedIron>]
+]);
+recipes.addShaped(<powersuits:powerarmorcomponent:19>, [
+	[<ore:ingotIron>,<ore:circuitAdvanced>,<ore:ingotIron>],
+	[<ore:componentSolenoid>,<ore:componentSolenoid>,<ore:componentSolenoid>],
+	[<ore:ingotIron>,<ore:circuitElite>,<ore:ingotIron>]
+]);
+recipes.addShaped(<powersuits:powerarmorcomponent:6>, [
+	[<ore:ingotTitanium>,<ore:componentWiring>,<ore:ingotTitanium>],
+	[<ore:ingotTitanium>,<ore:energyCrystal>,<ore:ingotTitanium>],
+	[<ore:ingotTitanium>,<ore:energyCrystal>,<ore:ingotTitanium>]
+]);
+recipes.addShaped(<powersuits:powerarmorcomponent:16>, [
+	[null,<minecraft:magma_cream>,null],
+	[<ore:plateCarbon>,<ore:dustSulfur>,<ore:plateCarbon>],
+	[<ore:plateCarbon>,<minecraft:magma_cream>,<ore:plateCarbon>]
+]);
+recipes.addShaped(<powersuits:powerarmorcomponent:9>, [
+	[<ore:blockWoolWhite>,<ore:blockWoolWhite>,<ore:blockWoolWhite>],
+	[<ore:string>,null,<ore:string>],
+	[<ore:plateCarbon>,null,<ore:plateCarbon>]
+]);
+recipes.addShaped(<powersuits:powerarmorcomponent:21>, [
+	[<ore:itemRubber>,<ore:itemRubber>,<ore:itemRubber>],
+	[<ore:glassReinforced>,null,<ore:glassReinforced>],
+	[<ore:itemRubber>,<ore:itemRubber>,<ore:itemRubber>]
+]);
+recipes.addShaped(<powersuits:powerarmorcomponent:2>, [
+	[<ore:ingotSteel>,<ore:ingotBrass>,<ore:ingotSteel>],
+	[<ore:circuitAdvanced>,<ore:componentSolenoid>,<ore:circuitAdvanced>],
+	[<ore:ingotSteel>,<ore:ingotBrass>,<ore:ingotSteel>]
+]);
+recipes.addShaped(<powersuits:powerarmorcomponent:18>, [
+	[null,null,null],
+	[<ore:glassReinforced>,<ore:glassReinforced>,<ore:glassReinforced>],
+	[<ore:plateIridium>,<ore:circuitElite>,<ore:plateIridium>]
+]);
+recipes.addShaped(<powersuits:powerarmorcomponent:1>, [
+	[<ore:componentWiring>,<ore:ingotSteel>,<ore:componentWiring>],
+	[<ore:componentWiring>,<ore:ingotTungsten>,<ore:componentWiring>],
+	[<ore:componentWiring>,<ore:ingotSteel>,<ore:componentWiring>]
+]);
+recipes.addShaped(<powersuits:powerarmorcomponent:0> * 8, [
+	[<techreborn:cable>,<techreborn:cable>,<techreborn:cable>],
+	[<ore:ingotSilver>,<ore:ingotSilver>,<ore:ingotSilver>],
+	[<techreborn:cable>,<techreborn:cable>,<techreborn:cable>]
+]);
+recipes.addShaped(<ore:plateIridium> * 5, [
+	[null,null,null],
+	[null,null,null],
+	[<ore:componentPlatingDiamond>,null,null]
+]);
+recipes.addShaped(<ore:ingotSteel> * 5, [
+	[null,null,null],
+	[null,null,null],
+	[<ore:componentPlatingIron>,null,null]
+]);
+recipes.addShaped(<forge:bucketfilled>, [
+	[<ore:dustLazurite>,<ore:dustLazurite>,<ore:dustLazurite>],
+	[<techreborn:dynamicCell>,<techreborn:dynamicCell>,<techreborn:dynamicCell>],
+	[null,<minecraft:bucket>,null]
+]);
+recipes.addShaped(<powersuits:power_fist>, [
+	[null,<ore:circuitBasic>,null],
+	[<ore:circuitBasic>,<ore:ingotSilver>,null],
+	[null,<ore:ingotSilver>,<ore:circuitBasic>]
+]);
+recipes.addShaped(<powersuits:powerarmor_feet>, [
+	[null,null,null],
+	[<ore:circuitBasic>,null,<ore:circuitBasic>],
+	[<ore:ingotSilver>,null,<ore:ingotSilver>]
+]);
+recipes.addShaped(<powersuits:powerarmor_head>, [
+	[null,null,null],
+	[<ore:ingotSilver>,<ore:ingotSilver>,<ore:ingotSilver>],
+	[<ore:circuitBasic>,null,<ore:circuitBasic>]
+]);
+recipes.addShaped(<powersuits:powerarmor_legs>, [
+	[<ore:ingotSilver>,<ore:ingotSilver>,<ore:ingotSilver>],
+	[<ore:circuitBasic>,null,<ore:circuitBasic>],
+	[<ore:ingotSilver>,null,<ore:ingotSilver>]
+]);
+recipes.addShaped(<powersuits:powerarmor_torso>, [
+	[<ore:ingotSilver>,null,<ore:ingotSilver>],
+	[<ore:circuitBasic>,<ore:ingotSilver>,<ore:circuitBasic>],
+	[<ore:ingotSilver>,<ore:ingotSilver>,<ore:ingotSilver>]
+]);
+recipes.addShaped(<powersuits:tinkertable>, [
+	[null,<ore:gemEmerald>,null],
+	[<ore:ingotSteel>,<ore:machineBlockAdvanced>,<ore:ingotSteel>],
+	[null,<ore:circuitAdvanced>,null]
 ]);
