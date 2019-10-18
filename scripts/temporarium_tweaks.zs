@@ -49,3 +49,6 @@ recipes.addShaped(<ic2:iridium_reflector>, [
   [<ore:reflectorThick>,<ore:plateIridiumAlloy>,<ore:reflectorThick>],
   [<ore:reflectorThick>,<ore:reflectorThick>,<ore:reflectorThick>],
 ]);
+
+#remove railcraft brass gear
+recipes.remove(<railcraft:gear:0>);
