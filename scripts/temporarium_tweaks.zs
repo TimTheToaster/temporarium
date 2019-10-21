@@ -39,9 +39,7 @@ recipes.addShapeless(<ic2:resource:12>, [<techreborn:machine_frame:0>]);
 recipes.remove(<ic2:misc_resource:3>);
 recipes.addShaped(<ic2:misc_resource:3>, [[null, null, null],[null, null, null],[null, <techreborn:uumatter>, null]]);
 
-<ore:ingotBrass>.addAll(<ore:ingotBronze>);
-<ore:dustBrass>.addAll(<ore:dustBronze>);
-<ore:plateBrass>.addAll(<ore:plateBronze>);
+furnace.addRecipe(<ore:ingotBronze>, <thermalfoundation:material:163>, 0.0);
 
 recipes.remove(<ic2:iridium_reflector>);
 recipes.addShaped(<ic2:iridium_reflector>, [
